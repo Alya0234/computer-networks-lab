@@ -1,0 +1,20 @@
+Overview
+​This experiment explores how concurrent traffic in a LAN affects network performance, specifically focusing on delay and packet drop occurrences.  
+​Objective
+​Generate multiple concurrent pings to observe queueing effects.  
+​Compare network behavior under low versus high traffic scenarios.  
+​Understand congestion in shared links and the importance of Quality of Service (QoS).  
+​Methodology
+​Topology Setup: A network was constructed using one switch and six PCs, with static IP addresses assigned to each to ensure connectivity.  
+​Baseline Test (Task 1): Initiated a single stream ping from PC1 to PC6 to record performance metrics under low traffic.  
+​High Traffic Test (Task 2): Initiated three simultaneous ping streams (PC1→PC6, PC2→PC5, PC3→PC4) to induce congestion in the shared link.  
+​Observations
+​(Replace this section with your specific 3–5 points comparing the results)
+​Example Point 1: During the baseline test, the ping response time was consistently low with zero packet loss.
+​Example Point 2: Under high traffic, the increase in simultaneous pings resulted in noticeable latency (increased RTT) and occasional packet drops.
+​Example Point 3: The congestion observed highlights how shared bandwidth becomes a bottleneck, illustrating the need for traffic shaping and QoS in real-world networks.  
+​Files Included
+​exp3_loadtest.pkt: Cisco Packet Tracer simulation file.
+​output_exp3.txt: Raw ping logs and detailed observation notes.
+​report_exp3.pdf: Formal experiment report containing screenshots of the simulation events.  
+​Would you like me to adjust any of these
