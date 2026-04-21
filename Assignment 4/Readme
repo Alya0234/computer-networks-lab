@@ -1,0 +1,37 @@
+# Assignment 4: Transmission Failure Demonstration
+
+## 📌 Course Details
+- Course: Computer Networks (ENCS304)
+- Program: B.Tech CSE
+- Experiment: Link Errors & Retransmission
+
+---
+
+## 🎯 Objective
+To demonstrate how communication is affected when a network link fails and how it recovers after reconnection.
+
+---
+
+## 🛠️ Tools Used
+- Cisco Packet Tracer
+
+---
+
+## 🧪 Network Setup
+- Devices Used:
+  - 2 PCs (PC0, PC1)
+  - 1 Switch
+- IP Configuration:
+  - PC0: 192.168.40.1 /24
+  - PC1: 192.168.40.2 /24
+
+---
+
+## ⚙️ Steps Performed
+
+### 1. Setup
+- Connected both PCs to the switch using copper straight-through cables
+- Assigned IP addresses to both PCs
+
+### 2. Normal Communication
+- Verified connectivity using ping command:
